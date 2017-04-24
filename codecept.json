@@ -5,12 +5,13 @@
   "helpers": {
     "Nightmare": {
       "url": "http://localhost",
-      "show":true,
-      "openDevTools":true
+      "show": true,
+      "openDevTools": true
     }
   },
   "include": {
-    "I": "./steps_file.js"
+    "I": "./steps_file.js",
+    "pageoutlinePage": "./pages/pageoutline.js"
   },
   "bootstrap": false,
   "mocha": {},
